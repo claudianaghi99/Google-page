@@ -100,7 +100,20 @@ max-height: 80%;
     border: 1px solid #dadce0;
     border-radius: 35px;
 }
+.logo .buttons {
+    margin-top: 30px;
+}
 
+.logo .buttons button{
+    background-color:#F8F9FA;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0px solid #e8e9eb;
+    cursor: pointer;
+    margin: 0 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
 /*Footer*/
 
 .footer{
