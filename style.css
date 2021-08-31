@@ -64,18 +64,17 @@ max-height: 80%;
 /*Search*/
 
 .logo{
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 485px;
+    height: 510px;
     cursor: pointer;
 
 }
 .google-image{
     width: 272px;
-    height: 97px;
+    height: 92px;
 }
 .logo .search-container form{
     position: relative;
@@ -84,7 +83,7 @@ max-height: 80%;
 .logo .search-container form label.search{
     position: absolute;
     left: 15px;
-    top: 12px;
+    top: 33px;
 }
 
 .logo .search-container form label.search i{
@@ -93,18 +92,18 @@ max-height: 80%;
 
 .logo .search-container form label.microphone{
     position: absolute;
-    right: 12px;
-    top: 12px;
+    right: 17px;
+    top: 33px;
     cursor: pointer;
 }
 
 .logo .search-container form input{
-    position: absolute;
     padding:  12px;
-    width: 500px;
+    width: 582px;
     position: relative;
     border: 1px solid #dadce0;
     border-radius: 35px;
+    margin-top: 20px;
 }
 
 .logo .buttons {
@@ -126,6 +125,11 @@ max-height: 80%;
     cursor:pointer;
     border: 1px solid #dadce0;
     box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+/*Language*/
+.language{
+    display: flex;
+    justify-content: center;
 }
 
 /*Footer*/
