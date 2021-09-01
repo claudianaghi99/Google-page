@@ -54,7 +54,7 @@ body{
 /*Images*/
 
 .appimg{
-max-height: 32px;
+    max-height: 32px;
 }
 
 .appimg:hover{
@@ -63,8 +63,8 @@ max-height: 32px;
 } 
 
 .accimg{
-max-width: 75%;
-max-height: 75%;
+    max-width: 75%;
+    max-height: 75%;
 }
 
 .accimg:hover{
@@ -87,6 +87,7 @@ max-height: 75%;
     display: flex;
     justify-content: center;
 }
+
 .logo .search-container{
     margin-top: 25px;
 }
@@ -148,6 +149,7 @@ max-height: 75%;
 }
 
 /*Language*/
+
 .logo .language-list{
     padding-top: 30px;;
     display: flex;
@@ -194,11 +196,9 @@ footer h3{
     padding: 5px 30px 0px 19px;
     display: flex;
     flex-direction: column;
-   /* align-items: flex-end*/;
     justify-content: center;
     font-size: 14px;
 }
-
 
 .footer .footer-a ul{
     display: flex;
@@ -210,22 +210,15 @@ footer h3{
     font-size: 15px;
     color: #70757A;
 }
-  
-
-  @media (min-width: 500px) {
-    .logo .search-container form input {
-      width: 500px;
-    }
-  }
 
 /*Dropdown-mic*/
 
-  .dropdown {
+.dropdown {
     position: relative;
     display: inline-block;
-  }
+}
   
-  .dropdown-content {
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #000000;
@@ -237,20 +230,20 @@ footer h3{
     font-family: sans-serif;
     border-radius: 5%;
     font-size: 13px;
-  }
+}
   
-  .dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
     display: block;
-  }
+}
 
-  /*Dropdown google apps*/
+/*Dropdown google apps*/
 
-  .dropdown-apps {
+.dropdown-apps {
     position: relative;
     display: inline-block;
-  }
+}
   
-  .dropdown-content-apps {
+.dropdown-content-apps {
     display: none;
     position: absolute;
     background-color: #616060;
@@ -262,12 +255,17 @@ footer h3{
     font-family: sans-serif;
     border-radius: 5%;
     font-size: 13px;
-  }
+}
   
-  .dropdown-apps:hover .dropdown-content-apps {
+.dropdown-apps:hover .dropdown-content-apps {
     display: block;
-  }
+}
 
+  @media (min-width: 500px) {
+    .logo .search-container form input {
+      width: 500px;
+    }
+  }
 
   @media(min-width:640px){
       .logo .search-container form input{
@@ -277,7 +275,7 @@ footer h3{
   
   @media (min-width: 768px) {
     .logo img {
-      width: 110%;
+        width: 110%;
     }
   
     .logo .search-container form input{
