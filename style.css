@@ -222,6 +222,57 @@ footer h3{
     }
   }
 
+/*Dropdown-mic*/
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 125px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    color: #ffffff;
+    font-family: sans-serif;
+    border-radius: 5%;
+    font-size: 13px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /*Dropdown google apps*/
+
+  .dropdown-apps {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content-apps {
+    display: none;
+    position: absolute;
+    background-color: #616060;
+    min-width: 107px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    color: #ffffff;
+    font-family: sans-serif;
+    border-radius: 5%;
+    font-size: 13px;
+  }
+  
+  .dropdown-apps:hover .dropdown-content-apps {
+    display: block;
+  }
+
+
   @media(min-width:640px){
       .logo .search-container form input{
           width: 580px;
