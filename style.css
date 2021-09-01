@@ -98,17 +98,13 @@ max-height: 75%;
 .logo .search-container form label.search{
     position: absolute;
     left: 20px;
-    top: 15px;
-}
-
-.logo .search-container form label.search i{
-    color:#97989b;
+    top: 13px;
 }
 
 .logo .search-container form label.microphone{
     position: absolute;
     right: 20px;
-    top: 15px;
+    top: 9px;
     cursor: pointer;
 }
 
