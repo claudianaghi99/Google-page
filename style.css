@@ -123,6 +123,10 @@ max-height: 75%;
     padding-right: 50px;
 }
 
+.logo .search-container form input:hover{
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
 /*Buttons*/
 
 .logo .buttons{
@@ -217,7 +221,7 @@ footer h3{
 
   @media(min-width:640px){
       .logo .search-container form input{
-          width: 500px;
+          width: 580px;
       }
   }
   
