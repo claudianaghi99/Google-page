@@ -170,12 +170,15 @@ max-height: 75%;
     color: #0300a8;
 }
 
+.logo .language-list .language:hover{
+    text-decoration: underline;
+}
+
 /*Footer*/
 
 .footer{
     position:absolute;
-    /* width:100%; */
-    width: 120rem;
+    width:100%;
     bottom: 0;
     left: 0;
     padding: 10px 1px;
@@ -231,7 +234,7 @@ footer h3{
     }
   
     .logo .search-container form input{
-        width: 650;
+        width: 650px;
     }
 
     .footer .footer-a {
